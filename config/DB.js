@@ -1,8 +1,8 @@
+require("dotenv").config();
 let mongoose = require("mongoose");
 const db = mongoose.connection;
 
-const server =
-  "mongodb+srv://user034:micromax3g@vanillajsstore.fhkvpeo.mongodb.net/vanilla_js_store?retryWrites=true&w=majority";
+const server = process.env.DB_ENDPOINT;
 
 module.exports = function DBConnect() {
   mongoose
