@@ -12,4 +12,4 @@ authorAvatar: 'https://avatars1.githubusercontent.com/u/13742415?s=200&v=4'
 -->
 
 Tech Stack:
-AWS Lambda, NodeJS, Express
+AWS Lambda, NodeJS, Express MongoDB
